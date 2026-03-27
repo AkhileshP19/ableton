@@ -402,7 +402,7 @@ const Live = () => {
             >
               <AccordionPrimitive.Item value="roar">
                 <AccordionPrimitive.Trigger className="w-full">
-                  <div className="flex items-center justify-center w-full text-blue-600 font-semibold text-3xl p-4 border-2 border-blue-600">
+                  <div className="flex items-center justify-center w-full text-[#0000FF] font-semibold text-xl p-4 border-2 border-[#0000FF] cursor-pointer">
                     {openItem === "roar" ? (
                       <Minus className="mr-2" />
                     ) : (
@@ -412,7 +412,7 @@ const Live = () => {
                   </div>
                 </AccordionPrimitive.Trigger>
                 <AccordionPrimitive.Content>
-                  <div className="space-y-8">
+                  <div className="space-y-8 py-12">
                     <div>
                       <Image
                         src="/live/live-20.png"
@@ -443,7 +443,7 @@ const Live = () => {
             </AccordionPrimitive.Root>
           </div>
 
-          <div className="space-y-6 w-[55%]">
+          <div className="space-y-6 w-[55%] pt-24">
             <h2 className="text-3xl font-semibold pb-2">
               Get expressive with granular synthesis
             </h2>
@@ -453,6 +453,13 @@ const Live = () => {
               notes and add vibrato and glissando. Plus, you can now capture
               audio in real time and start manipulating it immediately.
             </p>
+            <Link
+              href="/en/packs/granulator-iii"
+              className="flex items-center gap-2 text-[#0000FF]"
+            >
+              <span>Go to the Granulator III Packs page</span>
+              <ChevronRight height={12} width={12} />
+            </Link>
           </div>
 
           <div>
@@ -490,17 +497,17 @@ const Live = () => {
             >
               <AccordionPrimitive.Item value="roar">
                 <AccordionPrimitive.Trigger className="w-full">
-                  <div className="flex items-center justify-center w-full text-blue-600 font-semibold text-3xl p-4 border-2 border-blue-600">
+                  <div className="flex items-center justify-center w-full text-[#0000FF] font-semibold text-xl p-4 border-2 border-[#0000FF] cursor-pointer">
                     {openItem === "roar" ? (
                       <Minus className="mr-2" />
                     ) : (
                       <Plus className="mr-2" />
                     )}
-                    <span>Discover more Roar sounds</span>
+                    <span>Discover more Granulator III sounds</span>
                   </div>
                 </AccordionPrimitive.Trigger>
                 <AccordionPrimitive.Content>
-                  <div className="space-y-8">
+                  <div className="space-y-8 py-12">
                     <div>
                       <Image
                         src="/live/live-22.png"
@@ -529,6 +536,208 @@ const Live = () => {
                 </AccordionPrimitive.Content>
               </AccordionPrimitive.Item>
             </AccordionPrimitive.Root>
+          </div>
+        </div>
+
+        <div className="space-y-32">
+          <div className="flex justify-between w-full gap-36">
+            <div className="space-y-8 flex-1">
+              <h1 className="text-4xl font-semibold">Lost and Found</h1>
+              <Image
+                src="/live/live-11.png"
+                width={500}
+                height={400}
+                alt="live-11"
+              />
+              <p className="leading-loose">
+                Lost and Found brings together multi-sampled instruments, Drum
+                Racks and samples inspired by the unexpected sound sources of
+                the everyday – from household objects, DIY instruments and flea
+                market finds to the organic materials and natural elements that
+                surround us.
+              </p>
+              <Link
+                href="/en/packs/lost-and-found"
+                className="flex items-center gap-2 text-[#0000FF] -mt-6"
+              >
+                <span>Go to the Lost and Found Pack page</span>
+                <ChevronRight height={12} width={12} />
+              </Link>
+            </div>
+
+            <div className="space-y-8 flex-1">
+              <h1 className="text-4xl font-semibold">Performance Pack</h1>
+              <Image
+                src="/live/live-12.png"
+                width={500}
+                height={400}
+                alt="live-12"
+              />
+              <p className="leading-loose">
+                Perform live more freely with four Max for Live devices from
+                Iftah. Control any part of Live with advanced macros, capture
+                and re-deploy snapshots of your Set, instantly loop your
+                location in Arrangement View, and pre-arrange a song with clips
+                that Live fills as you perform.
+              </p>
+              <Link
+                href="/en/packs/performance-pack"
+                className="flex items-center gap-2 text-[#0000FF] -mt-6"
+              >
+                <span>Go to the Performance Pack page</span>
+                <ChevronRight height={12} width={12} />
+              </Link>
+            </div>
+          </div>
+
+          <div className="flex justify-between w-full gap-36">
+            <div className="space-y-8 flex-1">
+              <h1 className="text-4xl font-semibold">
+                Golden Era Hip Hop Drums
+              </h1>
+              <Image
+                src="/live/live-13.png"
+                width={500}
+                height={400}
+                alt="live-13"
+              />
+              <p className="leading-loose">
+                Explore the gritty drums of old-school hip hop with the new
+                beat-focused Pack from heavyweight producer Sound Oracle. Get
+                your hands on warm, authentic-sounding kits with built-in
+                effects and enhanced MPE functionality, created especially for
+                Live 12.
+              </p>
+              <Link
+                href="/en/packs/golden-era-hip-hop-drums"
+                className="flex items-center gap-2 text-[#0000FF] -mt-6"
+              >
+                <span>Go to the Golden Era Drums Pack page</span>
+                <ChevronRight height={12} width={12} />
+              </Link>
+            </div>
+
+            <div className="space-y-8 flex-1">
+              <h1 className="text-4xl font-semibold">Trap Drums</h1>
+              <Image
+                src="/live/live-14.jpeg"
+                width={500}
+                height={400}
+                alt="live-14"
+              />
+              <p className="leading-loose">
+                Sound Oracle puts the creative power of his in-demand trap beats
+                at your disposal with a Pack of 20 crisp, futuristic kits and
+                clips made for Live 12, loaded with MPE functionality for added
+                expressive control.
+              </p>
+              <Link
+                href="/en/packs/trap-drums"
+                className="flex items-center gap-2 text-[#0000FF] -mt-6"
+              >
+                <span>Go to the Trap Drums Pack page</span>
+                <ChevronRight height={12} width={12} />
+              </Link>
+            </div>
+          </div>
+
+          <div className="flex justify-between w-full gap-36">
+            <div className="space-y-8 flex-1">
+              <h1 className="text-4xl font-semibold">Sequencers</h1>
+              <Image
+                src="/live/live-15.png"
+                width={500}
+                height={400}
+                alt="live-15"
+              />
+              <p className="leading-loose">
+                Whether you want precise control over complex patterns or ways
+                to generate new ideas, this Pack of Max For Live Sequencers will
+                open up all kinds of possibilities in your music-making.
+              </p>
+              <Link
+                href="/en/packs/sequencers"
+                className="flex items-center gap-2 text-[#0000FF] -mt-6"
+              >
+                <span>Go to the Sequencers Pack page</span>
+                <ChevronRight height={12} width={12} />
+              </Link>
+            </div>
+
+            <div className="space-y-8 flex-1">
+              <h1 className="text-4xl font-semibold">MIDI Tools</h1>
+              <Image
+                src="/live/live-16.png"
+                width={500}
+                height={400}
+                alt="live-16"
+              />
+              <p className="leading-loose">
+                Discover exciting ways to generate new patterns and manipulate
+                your existing sequences with a Pack that demonstrates the
+                potential of Live 12's MIDI Tools.
+              </p>
+              <Link
+                href="/en/packs/midi-tools"
+                className="flex items-center gap-2 text-[#0000FF] -mt-6"
+              >
+                <span>Go to the MIDI Tools Pack page</span>
+                <ChevronRight height={12} width={12} />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-[#CDBEFD] w-full">
+        <h1 className="text-6xl font-semibold px-24 py-32">
+          Work more intuitively
+        </h1>
+        <div className="flex items-center w-full gap-32">
+          <div className="flex-1">
+            <Image
+              src="/live/live-17.png"
+              width={800}
+              height={300}
+              alt="live-17"
+              className="object-fill"
+            />
+            <span className="mt-1 text-sm ml-1">
+              A quick look at the new Keys and Scales feature
+            </span>
+          </div>
+          <div className="flex flex-col space-y-4 w-[40%] p-2 pr-24">
+            <h4 className="font-semibold text-2xl">Set up to stay focused</h4>
+            <p className="text-base leading-loose">
+              Use Live’s Mixer in Arrangement View to get more information and
+              control without moving to Session View and breaking the flow.
+              Toggle the visibility of each Mixer section to fit your needs, and
+              benefit from improved readability and feedback.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex items-center w-full gap-32">
+          <div className="flex-1">
+            <div className="flex flex-col space-y-4 w-[40%] p-2 pr-24">
+              <h4 className="font-semibold text-2xl">Set up to stay focused</h4>
+              <p className="text-base leading-loose">
+                Use Live’s Mixer in Arrangement View to get more information and
+                control without moving to Session View and breaking the flow.
+                Toggle the visibility of each Mixer section to fit your needs,
+                and benefit from improved readability and feedback.
+              </p>
+            </div>
+            <Image
+              src="/live/live-17.png"
+              width={800}
+              height={300}
+              alt="live-17"
+              className="object-fill"
+            />
+            <span className="mt-1 text-sm ml-1">
+              A quick look at the new Keys and Scales feature
+            </span>
           </div>
         </div>
       </div>
